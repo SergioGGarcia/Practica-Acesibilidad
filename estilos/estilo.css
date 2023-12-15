@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*MENÚ*/
+
+.menu {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_lista {
+    display: flex;
+    list-style: none;
+}
+
+.lista_elemento {
+    padding: 30px;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.lista_link {
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+/*PORTADA*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #DDDDDD;
+}
+
+.divNombre {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fondoNombre.jpg);
+}
+
+.miNombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profesion {
+    font-size: 200%;
+    font-weight: 700;
+    color: #DDDDDD;
+    text-align: center;
+}
+
+.nombre {
+    font-size: 400%;
+    font-weight: 900;
+    color: #F05454;
+    text-align: center;
+}
+
+
+
+/*SOBRE MÍ*/
+
+.container_sobre_mi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 6%;
+}
+
+.tit_sobre_mi {
+    color: #F05454;
+    font-size: 350%;
+    font-style: italic;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.descrip_sobre_mi {
+    display: flex;
+    margin-top: 50px;
+}
+
+.foto_curriculum {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 0 6% 6% 0;
+    border: 5px solid #222831;
+    border-radius: 10px;
+    position: relative;
+}
+
+.texto_sobre_mi {
+    font-size: large;
+    margin-top: 10px;
+    position: relative;
+}
+
+.curriculum {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #30475E;
+    color: white;
+    text-decoration: none;
+}
+
+.curriculum:hover {
+    background-color: #426180;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/*HABILIDADES*/
+
+.tit_habilidades {
+    margin-top: 5%;
+    padding: 20px;
+    color: #F05454;
+    font-size: 350%;
+    font-style: italic;
+}
+
+.texto_habilidades {
+    font-size: large;
+}
+
+.fotos_habilidades {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.lenguaje1 {
+    width: 3em;
+    height: 4em;
+}
+
+.lenguaje2 {
+    width: 4em;
+    height: 4em;
+}
+
+.lenguaje3 {
+    width: 4em;
+    height: 3em;
+}
+
+
+/*PROYECTOS*/
+
+.container_proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222831;
+    margin-top: 10vh;
+}
+
+.tit_proyectos {
+    margin-top: 5%;
+    margin-bottom: 50px;
+    padding: 20px;
+    color: #F05454;
+    font-size: 350%;
+    font-style: italic; 
+}
+
+.proyecto {
+    width: 90%;
+    padding: 0 6%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img_proyecto1 {
+    max-width: 500px;
+    max-height: 300px;
+    min-width: 200px;
+    border-radius: 10px;
+}
+
+.descrip_proyecto {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.subtit_proyectos {
+    margin-bottom: 10px;
+}
+
+.btn_proyecto {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #30475E;
+    color: white;
+    text-decoration: none;
+}
+
+.btn_proyecto:hover {
+    background-color: #426180;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.descrip_proyecto2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.img_proyecto2 {
+    max-width: 600px;
+    min-width: 200px;
+    border-radius: 10px;
+    padding: 0 10%;
+}
+
+.descrip_proyecto3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+
+
+/*CONTACTO*/
+
+.container_contacto {
+    background-color: #222831;
+    position: relative;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_contacto h1 {
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    color: #F05454;
+    font-size: 4.2em;
+}
+
+.container_contacto:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url(../img/fondo_contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.contacto_lista {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    position: relative;
+    z-index: 3;
+}
+
+.contacto {
+    width: 120px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+}
+
+.linkedin {
+    width: 25%;
+    margin-right: 5px;
+}
+
+.email {
+    width: 23%;
+    margin-right: 5px;
+}
+
+.made_by {
+    position: absolute;
+    bottom: 10px;
+    z-index: 3;
+    color: white;
+    font-size: smaller;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="estilos/estilo.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <div class="menu">
+            <nav class="navbar">
+                <ul class="navbar_lista">
+                    <li class="lista_elemento"><a href="#sobre_mi" class="lista_link">Sobre mí</a></li>
+                    <li class="lista_elemento"><a href="#proyectos" class="lista_link">Proyectos</a></li>
+                    <li class="lista_elemento"><a href="#contacto" class="lista_link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="divNombre">
+                <div class="miNombre">
+                    <span class="profesion">FRONT-END DEVELOPER</span>
+                    <span class="nombre">SERGIO GARCÍA GARCÍA</span>
+                </div>
+            </div>
+
+            <div class="container_sobre_mi">
+                <a name="sobre_mi"><h2 class="tit_sobre_mi">Sobre mi</h2></a>
+                <div class="descrip_sobre_mi">
+                    <img src="img/foto_curriculum.jpg" class="foto_curriculum">
+                    <div class="texto_sobre_mi">
+                        <p>Hola, soy Sergio García, futuro graduado en Desarrollo de Aplicaciones Web y programador Front-end, aun que empezé estudiando otros sectores.<br><br>
+                        Comencé mi camino de estudiante en una Formación Profesional de Electromecánica, donde aprendí bastantes cosas de electricidad y mecánica.
+                        Después me pasé a un Grado Medio de Mecanizado de piezas de metal.
+                        Al acabar dicho Grado Medio, no me quedé satisfecho y empezé a buscar nuevas opciones, cuando pensé en meterme en esto, ya que desde pequeño
+                        he andado cacharreando con los ordenadores que había por casa. Y aquí porfín encontré lo que de verdad me apasiona.
+                        <br><br>
+                        Me gusta bastante diseñar y después de ver una página que has creado con gusto y te ha llevado su tiempo, sientes una satisfacción que la verdad es dificil
+                        encontrar con cualquier cosa. Al igual que haciendo cualquier tipo de programa con php, javascript, da mucho gusto ver que funciona justo como tu querías.</p>
+                        <button onclick="location.href='archivos/Currículum.pdf'" class="curriculum">Ver CV</button>
+                    </div>
+                </div>
+
+                <h2 class="tit_habilidades">Habilidades</h2>
+                <div class="texto_habilidades">Estos son los diferentes lenguajes con los que he trabajado, aun que todavía estoy especializandome en cada uno de ellos,
+                                                pero poco a poco los voy dominando.
+                </div>
+                <div class="fotos_habilidades">
+                    <img src="img/html.png" alt="HTML" class="lenguaje1">
+                    <img src="img/css.png" alt="CSS" class="lenguaje1">
+                    <img src="img/javascript.png" alt="JavaScript" class="lenguaje2">
+                    <img src="img/php.png" alt="PHP" class="lenguaje3">
+                    <img src="img/mysql.png" alt="SQL" class="lenguaje3">
+                </div>
+            </div>
+
+            <div class="container_proyectos">
+                <a name="proyectos"><h2 class="tit_proyectos">Proyectos</h2></a>
+
+                <div class="proyecto">
+                    <img src="img/proyecto_clinica.png" class="img_proyecto1">
+
+                    <div class="descrip_proyecto">
+                        <h4 class="subtit_proyectos">Página Web de una Clínica</h4>
+                        <p>Página web de una clínica inventada, con distintos apartados como especialidades, doctores...</p>
+                        <p>Realizado con HTML y CSS.</p>
+                        <button onclick="location.href='archivos/PracticaClinica/Index.html'" class="btn_proyecto">Ver proyecto</button>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/proyecto_halloween.png" class="img_proyecto1">
+
+                    <div class="descrip_proyecto">
+                        <h4 class="subtit_proyectos">Página Web de una Fiesta de Halloween</h4>
+                        <p>Página web de una fiesta de Halloween inventada, con sus imágenes descripciones y listas.</p>
+                        <p>Realizado con HTML y CSS.</p>
+                        <button onclick="location.href='archivos/PracticaHalloween/practica.html'" class="btn_proyecto">Ver proyecto</button>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/proyecto_cartelMetro.png" class="img_proyecto2">
+
+                    <div class="descrip_proyecto2">
+                        <h4 class="subtit_proyectos">Cartel de un tirador de alarma</h4>
+                        <p>Cartel realizado con div anidados y flex.</p>
+                        <p>Realizado con HTML y CSS.</p>
+                        <button onclick="location.href='archivos/PracticaDivAnidados/Practica_Div_anidados.html'" class="btn_proyecto">Ver proyecto</button>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/proyecto_concurso.png" class="img_proyecto1">
+
+                    <div class="descrip_proyecto3">
+                        <h4 class="subtit_proyectos">Juego de un concruso</h4>
+                        <p>Programa que simula el famoso programa de Saber y Ganar, en el cual se hacen preguntas<br>y los jugadores contestan y van sumando puntos.</p>
+                        <p>Realizado con Java.</p>
+                        <button onclick="location.href='archivos/src'" class="btn_proyecto">Ver proyecto</button>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/proyecto_juegoStarWars.png" class="img_proyecto1">
+
+                    <div class="descrip_proyecto3">
+                        <h4 class="subtit_proyectos">Juego de Star Wars</h4>
+                        <p>Programa para practicar calculos mentales. Va contando historias con problemas que van<br>sucediendo y hay que resolverlos con cálculos.</p>
+                        <p>Realizado con Java.</p>
+                        <button onclick="location.href='archivos/PROG04Practica.java'" class="btn_proyecto">Ver proyecto</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container_contacto">
+                <a name="contacto"><h1>Contacto</h1></a>
+
+                <ul class="contacto_lista">
+                    <li><a href="https://www.linkedin.com/in/sergio-garcia-garcia-036448293/" class="contacto"><img src="img/LinkedIn_logo.png" class="linkedin">Linkedin</a></li>
+                    <li><a href="mailto:sergiogg0412@gmail.com" target="_blank" class="contacto"><img src="img/logo_email.png" class="email">Email</a></li>
+                </ul>
+
+                <footer class="made_by">
+                    <p>Made by Sergio García García</p>
+                </footer>
+            </div>
+        </div>
+
+    </body>
+
+</html>

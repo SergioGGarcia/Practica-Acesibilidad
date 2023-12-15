@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <title>Practica</title>
+            <!--Favicon-->
+            <link rel="shortcut icon" href="Imagenes/favicon-96x96.png" type="image/x-icon">
+            <style type="text/css">
+               
+               * {
+                margin: 0;
+                padding: 0;
+               }
+
+               body {
+                    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+                    font-weight: 300;
+                }
+
+               #contenedor{
+                    background-color: #66706f;
+                    border-radius: 10px 10px 10px 10px;
+                    width: 700px;
+                    height: 480px;
+                    margin: 20px;
+                    position: relative;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                    display: flex;
+               }
+
+               div h1 {
+                    background-color: #c4230f;
+                    color: #dcccb6;
+                    width: 660px;
+                    padding:20px;
+                    text-align: center;
+                }
+
+                .borde1 {
+                    border-radius: 10px 10px 0px 0px;
+                }
+                .borde2 {
+                    border-radius: 0px 0px 10px 10px;
+                }
+
+                #abajo{
+                    position: absolute;
+                    top: 76%;
+                }
+
+                div ol {
+                    position: absolute;
+                    top: 20%;
+                    left: 5.5%;
+                    width: 700px;
+                    height: 480px;
+                }
+
+                div li {
+                    text-align: center;
+                    padding: 13px;
+                    position: absolute;
+                    text-align: justify;
+                }
+
+                .left {
+                    background-color: #e1ddc4;
+                    float: left;
+                    position: absolute;
+                    width: 300px;
+                    height: 250px;
+                    border-radius: 10px 10px 10px 10px;
+                }
+
+                .right {
+                    background-color: #e1ddc4;
+                    margin-left: 330px;
+                    position: absolute;
+                    width: 300px;
+                    height: 250px;
+                    border-radius: 10px 10px 10px 10px;
+                }
+
+                img {
+                    width: 180px;
+                    height: 180px;
+                    margin-top: 20%;
+                    margin-left: 15%;
+                }
+            </style>
+        </head>
+        <body>
+            <div id="contenedor">
+                <div>
+                    <h1 class="borde1">TIRADOR DE ALARMA</h1>
+                </div>
+
+                <ol>
+                    <div class="left">
+                        <b><li>EN CASO DE EMERGENCIA TIRE DE LA ANILLA</li></b>
+                        <img src="Imagenes/alarma_1-bg.png">
+                    </div>
+                    <div class="right">
+                        <b><li>INDIQUE EL MOTIVO AL CONDUCTOR A TRAVÉS DEL INTERFONO</li></b>
+                        <img src="Imagenes/alarma_2-bg.png">
+                    </div>
+                </ol>
+
+                <div id="abajo">
+                    <h1 class="borde2">PROHIBIDO SU USO SALVO CASO DE EMERGENCIA</h1>
+                </div>
+            </div>
+        </body>
+</html>

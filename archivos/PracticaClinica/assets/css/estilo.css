@@ -1,0 +1,322 @@
+/*ESTILO INDEX*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{    
+    background-color: rgb(218, 241, 248);
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.menuDer{
+    display: flex;
+}
+
+.logo{
+    color: rgb(2, 133, 133);
+    margin-right: 40px;
+}
+
+.navbar_lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista_elemento{
+    list-style: none;
+}
+
+.lista_link{
+    padding: 30px;
+    color: rgb(4, 4, 100);
+    font-weight: 600;
+}
+
+.btn{
+    border: none;
+}
+
+.btn a{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(2, 133, 133);
+}
+
+.container{
+    margin: 50px;
+    display: flex;
+}
+
+.containerText{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.containerBoton{
+    margin-left: 140px;
+}
+
+.subtitulo{
+    margin-bottom: 30px;
+}
+
+.titulo{
+    margin-bottom: 20px;
+}
+
+.descrip{
+    margin-bottom: 15px;
+}
+
+.btn_der {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: transparent;
+    border: 1px solid rgb(2, 133, 133);
+}
+
+.containerDerecha{
+    margin-top: 50px;
+    margin-right: 700px;
+}
+
+.doctores{
+    height: 100%;
+    width: 400%;
+}
+
+
+
+/*ESTILO SERVICIOS*/
+
+
+
+.containerServicios{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.seccionServ{
+    padding: 50px;
+    color: rgb(2, 133, 133);
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 59, 59);
+}
+
+.lineaServ{
+    margin-bottom: 20px;
+}
+
+.descripServ{
+    margin-bottom: 20px;
+}
+
+.covidimg{
+    height: 12%;
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+.consultaimg{
+    height: 17%;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.radiografiaimg{
+    height: 15%;
+    margin-bottom: 50px;
+}
+
+.analisisimg{
+    height: 15%;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+
+
+/*ESTILO ESPECIALIDADES*/
+.alergiaimg{
+    height: 17%;
+    width: 30%;
+    margin-bottom: 50px;
+}
+    
+.dermatologiaimg{
+    height: 12%;
+    width: 45%;
+    margin-bottom: 50px;
+}
+    
+.medicinaimg{
+    height: 14%;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.neurologiaimg{
+    height: 10%;
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/*ESTILO EQUIPO MEDICO*/
+.containerEquipo{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display: block;
+    
+}
+
+.tituloEquipo{
+    color: rgb(2, 133, 133);
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    color: rgb(0, 59, 59);
+    padding: 15px;
+}
+
+.divTabla{
+    margin-top: 10px;
+}
+
+.listaTitulacion{
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+
+
+
+/*ESTILO INSTALACIONES*/
+
+.containerInsta{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.tituloInsta{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    color: rgb(2, 133, 133);
+}
+
+.seccionInsta{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.salaimg{
+    height: 25%;
+    width: 40%;
+}
+
+.descripInsta{
+    margin-top: 100px;
+}
+
+.tituloDescrip{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    color: rgb(2, 133, 133); 
+}
+
+.video{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.descripVideo{
+    margin-top: 200px;
+}
+
+.tituloVideo{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    color: rgb(2, 133, 133); 
+}
+
+
+
+/*ESTILO CONTACTO*/
+
+.apartado{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.registro{
+    margin: 5px;
+}
+
+.lineaCon{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contactos{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.tituloCon{
+    color: rgb(4, 4, 100);
+}
+
+.listaCon{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.subtituloCon{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}

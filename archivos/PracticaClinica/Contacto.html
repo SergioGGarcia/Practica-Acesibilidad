@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Clinica Puig Adam</title>
+	<link rel="stylesheet" href="assets/css/estilo.css">
+	<link rel="icon" href="assets/img/favicon.png">
+	<meta name="description" content="Distintos servicios que ofrecemos en nuestra clínica">
+	<meta name="keywords" content="clinica servicios">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+            <div class="menuDer">
+
+                <div class="logo">CLÍNICA PUIG ADAM</div>
+                <ul class="navbar_lista">
+                    <li class="lista_elemento"><a class="lista_link" href="Index.html">Inicio</a></li>
+                    <li class="lista_elemento"><a class="lista_link" href="Servicios.html">Servicios</a></li>
+                    <li class="lista_elemento"><a class="lista_link" href="Especialidades.html">Especialidades</a></li>
+                    <li class="lista_elemento"><a class="lista_link" href="EquipoMedico.html">Equipo médico</a></li>
+                    <li class="lista_elemento"><a class="lista_link" href="Instalaciones.html">Instalaciones</a></li>
+                    <li class="lista_elemento"><a class="lista_link" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+		</nav>
+
+        <div class="containerContacto">
+
+            <form name="FormularioClínica" method="post" actio="#" align="center">
+
+                <fieldset class="apartado">
+                    <legend align="left">Datos Personales</legend>
+                    
+                    Nombre:
+                    <input class="registro" type="text" name="nombre">
+    
+                    Apellidos:
+                    <input class="registro" type="text" name="apellidos">
+                
+                    <br>
+                    Fecha de nacimiento:
+                    <input class="registro" type="date" name="fechaDeNacimiento">
+    
+                    Sexo:
+                    <input class="registro" type="radio" name="sexo" value="H" checked>Hombre
+                    <input class="registro" type="radio" name="sexo" value="M">Mujer
+    
+                    <br>
+                    D.N.I. o Tarjeta de residencia N.I.E.
+                    <input class="registro" type="text" name="DNI" maxlength="9">
+    
+                    Teléfono particular:
+                    <input class="registro" type="tel" name="teléfono">
+    
+    
+                    <hr class="lineaCon">
+                    <p><strong>DOMICILIO ACTUAL</strong></p>
+    
+                    Calle:
+                    <input class="registro" type="text" name="calle">
+    
+                    <br>
+                    Localidad:
+                    <select class="registro" name="localidad">
+                        <option value="1">Getafe</option>
+                        <option value="2">Leganes</option>
+                        <option value="3">Mostoles</option>
+                        <option value="4">Alcorcón</option>
+                    </select>
+    
+                    Provincia:
+                    <select class="registro" name="provincia">
+                        <option value="1">Madrid</option>
+                        <option value="2">Barcelona</option>
+                        <option value="3">Valencia</option>
+                        <option value="4">Castellón</option>
+                    </select>
+    
+                    <br>
+                    Código Postal:
+                    <input type="text" name="códigoPostal">
+    
+                    <br>
+                    Vivienda:
+                    <input class="registro" type="radio" name="vivienda" value="padres">Vive con padres
+                    <input class="registro" type="radio" name="vivienda" value="residencia">Residencia
+                    <input class="registro" type="radio" name="vivienda" value="otrosFamiliares">Otros familiares
+                    <input class="registro" type="radio" name="vivienda" value="otros">Otros
+    
+                </fieldset>
+    
+                <br>
+    
+                <fieldset class="apartado">
+                    <legend align="left">Crear Usuario</legend>
+    
+                    Nombre Usuario:
+                    <input class="registro" type="text" name="usuario" placeholder="Por ej: PedroPerez">
+    
+                    <br>
+                    Contraseña:
+                    <input class="registro" type="password" name="contraseña">
+                    <br>
+                    Introduce de nuevo la contraseña:
+                    <input class="registro" type="password" name="contraseña">
+    
+                    <br>
+                    Registro médico:
+                    <input class="registro" type="file" name="adjunto" accept=".pdf" multiple>
+    
+                </fieldset>
+    
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+    
+            </form>
+            
+        </div>
+        <div class="contactos" align="center">
+            <h1 class="tituloCon">Teléfonos y Contactos de interés</h1>
+
+            <div class="listaCon">
+                <ul>
+                    <li class="subtituloCon"><strong>Centralita</strong></li>
+                    <p>91 735 57 57</p>
+                    <p>clinica.puigadam@puigadam.com</p>
+
+                    <li class="subtituloCon"><strong>Citas generales y de traumatología</strong></li>
+                    <p>91 735 57 57 Ext. 850</p>
+
+                    <li class="subtituloCon"><strong>Laboratorio</strong></li>
+                    <p>91 735 57 57 Ext. 767</p>
+                </ul>
+            </div>
+        </div>
+	</header>
+</body>
+</html>
